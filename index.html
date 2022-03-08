@@ -14,9 +14,9 @@
 <body>
     <!--Quick menu-->
     <ul class="skip_menu">
-        <li><a href="#" title="go menu">go menu</a></li>
-        <li><a href="#" title="go main content">go main content</a></li>
-        <li><a href="#" title="go footer">go footer</a></li>
+        <li><a href="#main_menu" title="go menu">go menu</a></li>
+        <li><a href="#contents" title="go main content">go main content</a></li>
+        <li><a href="#footer" title="go footer">go footer</a></li>
     </ul>
     <!--End of quick menu-->
     <header>
@@ -26,12 +26,12 @@
                 <a href="index.html"><img src="img/main/logo.png" alt="logo"></a>
             </h1>
             <nav class="pc_nav">
-                <ul class="main_menu">
+                <ul class="main_menu" id="main_menu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Service</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Team</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -72,7 +72,7 @@
             </div>
         </div>
     </header>
-    <div class="contents">
+    <div class="contents" id="contents">
         <div class="content1_wrap">
             <section class="content1">
                 <h2 class="hidden">content1</h2>
@@ -272,7 +272,7 @@
             </section>
         </div>
     </div>
-    <footer>
+    <footer id="footer">
         <h2 class="hidden">footer</h2>
         <p class="footer_title">Contact Us</p>
         <div class="footer_content_wrap">
@@ -282,9 +282,15 @@
                     <p class="footer_messgae_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                 </div>
                 <ul class="sns_list">
-                    <li><img src="img/main/facebook.png" alt="facebook"></li>
-                    <li><img src="img/main/twitter.png" alt="twitter"></li>
-                    <li><img src="img/main/google.png" alt="google"></li>
+                    <li>
+                        <a href="#"><img src="img/main/facebook.png" alt="facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/main/twitter.png" alt="twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/main/google.png" alt="google"></a>
+                    </li>
                 </ul>
                 <ul class="contact_list">
                     <li>Cssaauthor.com</li>

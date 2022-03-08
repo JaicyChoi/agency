@@ -119,7 +119,6 @@ header{
     position: relative;
     float: left;
     width: 100%;
-    background-color: gray;
 }
 .content{
     position: relative;
@@ -132,7 +131,6 @@ header{
     position: relative;
     float: left;
     width: 830px;
-    background-color: pink;
 }
 .post{
     position: relative;
@@ -282,12 +280,77 @@ header{
     top: 4px;
     margin-left: 20px;
 }
+.pagination_wrap{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 75px 0;
+}
+.pagination{
+    position: relative;
+    float: right;
+    width: 730px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pagination li{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
+}
+.prev_btn{
+    color: #bababa;
+    background: url(../img/blog/arrow.png) no-repeat center;
+    background-color: #f6fafb;
+    transform: rotate(180deg);
+    margin-right: 75px;
+    cursor: pointer;
+    transition: all .15s ease;
+}
+.num{
+    color: #bababa;
+    background-color: #f6fafb;
+    cursor: pointer;
+    transition: all .15s ease;
+}
+.dots{
+    color: #485460;
+}
+.next_btn{
+    color: #bababa;
+    background: url(../img/blog/arrow.png) no-repeat center;
+    background-color: #f6fafb;
+    margin-left: 75px;
+    cursor: pointer;
+    transition: all .15s ease;
+}
+.prev_btn:hover, .num:hover, .next_btn:hover{
+    color: white;
+    background-color: #485460;
+}
+.prev_btn:hover{
+    background: url(../img/blog/arrow_white.png) no-repeat center;
+    transform: rotate(180deg);
+    background-color: #485460;
+}
+.next_btn:hover{
+    background: url(../img/blog/arrow_white.png) no-repeat center;
+    background-color: #485460;
+}
+.active{
+    color: white;
+    background-color: #485460;
+}
 .side_contents{
     position: relative;
     float: right;
     width: 270px;
     color: #485460;
-    background-color: yellow;
 }
 .search_form{
     position: relative;
@@ -572,4 +635,46 @@ header{
 .tag_list li a:hover{
     background-color: #49cbcd;
     color: white;
+}
+footer{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-top: 1.5px solid #e9e9e9;
+}
+.footer_wrapper{
+    position: relative;
+    float: left;
+    left: 50%;
+    transform: translate(-50%);
+    width: 300px;
+    background-color: white;
+    margin: 40px 0 50px 0;
+}
+.footer_sns_list{
+    position: relative;
+    float: left;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 30px;
+}
+.footer_sns_list li{
+    position: relative;
+    float: left;
+    margin-right: 15px;
+}
+.footer_sns_list li:last-child{
+    margin-right: none;
+}
+.footer_sns_list li img{
+    display: block;
+    width: 100%;
+}
+.copyright{
+    position: relative;
+    float: left;
+    font-size: 0.75em;
+    color: #7c7c7c;
+    width: 100%;
+    text-align: center;
 }

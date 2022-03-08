@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&display=swap');
+
+.post_info_wrap{
+    margin-bottom: 35px;
+}
+.post_text_wrap{
+    width: 100%;
+}
+.post_text_inner_wrap{
+    position: relative;
+}
+.post_text_inner1{
+    position: relative;
+    font-size: 0.875em;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 23.8px;
+    margin-bottom: 10px;
+}
+.post_text_inner2{
+    position: relative;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+.contents_img{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 35px 0 40px 0;
+}
+.contents_img img{
+    display: block;
+    width: 100%;
+}
+.quote_wrap{
+    position: relative;
+    margin: 65px 0 95px 0;
+    width: 100%;
+}
+.quote_wrap:before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 18px;
+    height: 13px;
+    background: url(../img/blog/quote.png) no-repeat center;
+}
+.quote{
+    position: relative;
+    font-family: 'Cormorant', serif;
+    font-size: 1.3125em;
+    font-weight: 500;
+    width: 92%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+}
+.person{
+    position: relative;
+    width: 100%;
+    text-align: right;
+    font-size: 0.9375em;
+    font-weight: 400;
+}
+.share_sns{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100px;
+    border: 2px solid #ebebeb;
+    box-sizing: border-box;
+}
+.share_title{
+    position: relative;
+    float: left;
+    /* width: 100%; */
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.share_title:after{
+    content: '';
+    width: 120%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: -1;
+    background-color: white;
+}
+.sns_share_list_wrap{
+    position: absolute;
+    float: left;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sns_share_list{
+    position: relative;
+    float: left;
+}
+.sns_share_list li{
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+.sns_btn{
+    position: relative;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75em;
+    border: 1px solid #cecece;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(224,218,218,1) 50%);
+    cursor: pointer;
+}
+.sns_share_list img{
+    position: relative;
+    float: left;
+    left: -2px;
+    top: 3.5px;
+    width: 14px;
+}
+.sns_share_list li:nth-child(2) img{
+    top: 2px;
+}
+.twitter{
+}
+.facebook{
+    color: #375f90;
+}
+.google{
+    color: red;
+}
+.balloon{
+    position: relative;
+    float: left;
+    font-size: 0.6875em;
+    background-color: white;
+    border: 1px solid #cecece;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px 0 0 7px;
+}
+.balloon:after{
+    content:"";
+    position: absolute;
+    background: url(../img/blog/balloon.png) no-repeat;
+    left: -6.1px;
+    top: 1px;
+    width: 8px;
+    height: 12px;
+    /* border-top: 5px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 7px solid #cecece;
+    border-bottom: 5px solid transparent; 
+    top: 2px;
+    left: -5px; */
+}
+.other_post_btn{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 55px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prev_post, .next_post{
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prev_post_btn, .next_post_btn{
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../img/blog/arrow.png) no-repeat center;
+    transform: rotate(180deg);
+    background-color: #f6fafb;
+    border-radius: 50%;
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.prev_post_btn:hover{
+    background: url(../img/blog/arrow_white.png) no-repeat center;
+    transform: rotate(180deg);
+    background-color: #485460;
+}
+.next_post_btn:hover{
+    background: url(../img/blog/arrow_white.png) no-repeat center;
+    transform: rotate(0deg);
+    background-color: #485460;
+}
+.prev_post_text, .next_post_text{
+    position: relative;
+    float: left;
+    font-size: 1.125em;
+}
+.next_post{
+}
+.next_post_btn{
+    float: right;
+    transform: rotate(0deg);
+    margin-right: 0;
+    margin-left: 15px;
+}
+.next_post_text{
+}

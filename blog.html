@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="css/blog_keyframes.css">
     <link rel="stylesheet" href="css/blog_mediaquery.css">
     <link rel="shortcut icon" href="ico/logo.ico">
-    <title>Author</title>
+    <title>Blog</title>
 </head>
 <body>
     <!--Quick menu-->
     <ul class="skip_menu">
-        <li><a href="#" title="go menu">go menu</a></li>
-        <li><a href="#" title="go main content">go main content</a></li>
-        <li><a href="#" title="go footer">go footer</a></li>
+        <li><a href="#main_menu" title="go menu">go menu</a></li>
+        <li><a href="#content" title="go main content">go main content</a></li>
+        <li><a href="#footer" title="go footer">go footer</a></li>
     </ul>
     <!--End of quick menu-->
     <header>
@@ -26,7 +26,7 @@
                 <a href="index.html"><img src="img/main/logo.png" alt="logo"></a>
             </h1>
             <nav class="pc_nav">
-                <ul class="main_menu">
+                <ul class="main_menu" id="main_menu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Service</a></li>
                     <li><a href="#">Portfolio</a></li>
@@ -41,7 +41,7 @@
         </div>
     </header>
     <div class="content_wrap">
-        <div class="content">
+        <div class="content" id="content">
             <section class="blog_post">
                 <h2 class="hidden">blog post</h2>
                 <article class="post">
@@ -136,6 +136,20 @@
                         </div>
                     </div>
                 </article>
+                <div class="pagination_wrap">
+                    <ul class="pagination">
+                        <!-- <li class="prev_btn"></li>
+                        <li class="first_page num">1</li>
+                        <li class="num">2</li>
+                        <li class="num active">3</li>
+                        <li class="num">4</li>
+                        <li class="num">5</li>
+                        <li class="num">6</li>
+                        <li class="dots">...</li>
+                        <li class="last_page num">78</li>
+                        <li class="next_btn"></li> -->
+                    </ul>
+                </div>
             </section>
             <aside class="side_contents">
                 <label for="search"><input class="search_form" type="text" id="search" value="" placeholder="Search"></label>
@@ -219,6 +233,22 @@
             </aside>
         </div>
     </div>
-    <footer></footer>
+    <footer id="footer">
+        <div class="footer_wrapper">
+            <ul class="footer_sns_list">
+                <li>
+                    <a href="#"><img src="img/main/facebook.png" alt="facebook"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/main/twitter.png" alt="twitter"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/main/google.png" alt="google"></a>
+                </li>
+            </ul>
+            <p class="copyright">Copyright © 2013 Designed by cssauthor.com</p>
+        </div>
+    </footer>
+    <script src="js/blog.js"></script>
 </body>
 </html>
