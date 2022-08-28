@@ -149,6 +149,14 @@ header{
     margin-bottom: 20px;
     letter-spacing: -1px;
 }
+.post_title a{
+    text-decoration: none;
+    color: #414a5a;
+    transition: all .15s ease;
+}
+.post_title a:hover{
+    color: #44c0c2;
+}
 .post_date{
     position: absolute;
     left: -100px;

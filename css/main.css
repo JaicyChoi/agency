@@ -342,6 +342,36 @@ header{
 .portfolio_img_wrap{
     overflow: hidden;
 }
+.portfolio_list li:hover:after{
+    content: 'portfolio 1';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
+}
+.portfolio_list li:nth-child(2):hover:after{
+    content: 'portfolio 2';
+}
+.portfolio_list li:nth-child(3):hover:after{
+    content: 'portfolio 3';
+}
+.portfolio_list li:nth-child(4):hover:after{
+    content: 'portfolio 4';
+}
+.portfolio_list li:nth-child(5):hover:after{
+    content: 'portfolio 5';
+}
+.portfolio_list li:nth-child(6):hover:after{
+    content: 'portfolio 6';
+}
 .portfolio_img_wrap img{
     display: block;
 }
