@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/main_keyframes.css">
     <link rel="stylesheet" href="css/main_mediaquery.css">
@@ -194,10 +195,10 @@
             </section>
         </div>
         <div class="content4_wrap">
-            <section class="content4">
+            <section class="content4 swiper-container">
                 <h2 class="hidden">content4</h2>
-                <ul class="plan_list">
-                    <li>
+                <ul class="plan_list swiper-wrapper">
+                    <li class="swiper-slide">
                         <table>
                             <tr><th>Basic</th></tr>
                             <tr><td class="payment">$5.01 / Month</td></tr>
@@ -210,7 +211,7 @@
                             <tr><td class="buy_plan"><button class="plan_btn">Buy now</button></td></tr>
                         </table>
                     </li>
-                    <li>
+                    <li class="swiper-slide">
                         <table>
                             <tr><th class="pro_plan">Pro</th></tr>
                             <tr><td class="payment">$10.01 / Month</td></tr>
@@ -223,7 +224,7 @@
                             <tr><td class="buy_plan"><button class="plan_btn pro_btn">Buy now</button></td></tr>
                         </table>
                     </li>
-                    <li>
+                    <li class="swiper-slide">
                         <table>
                             <tr><th>Premium</th></tr>
                             <tr><td class="payment">$20.01 / Month</td></tr>
@@ -312,9 +313,28 @@
             </form>
         </div>
     </footer>
-    <div class="top_btn_wrapper">
-        <div class="top_btn"></div>
+    <div class="mobile">
+        <div class="mobile_menu_wrap">
+            <div class="mobile_icon_wrap">
+                <img class="mobile_menu" src="img/main/mobile_menu.png" alt="mobile menu icon">
+                <img class="close_icon" src="img/main/close.png" alt="menu close icon">
+            </div>
+        </div>
+        <nav class="mobile_nav">
+            <ul class="mobile_main_menu" id="mobile_main_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </div>
+    <div class="top_btn_wrapper">
+        <img src="img/main/top.png" alt="top button"></div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

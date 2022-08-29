@@ -1,0 +1,294 @@
+@media screen and (max-width:1200px){
+    .header_top, .content1, .content2, .content3, .content4, .content5, .footer_content_wrap{
+        width: 98%;
+/*         background: red; */
+    }
+    .portfolio_list li{
+        height: 300px;
+    }
+}
+@media screen and (max-width:1060px){
+    .main_visual{
+        font-size: 0.95em;
+    }
+    .main_visual_list li{
+        height: 480px;
+    }
+    .main_visual_text_btn{
+        width: 200px;
+        height: 60px;
+        font-size: 1.7em;
+    }
+}
+@media screen and (max-width:900px){
+    .footer_messgae_text{
+        width: 400px;
+    }
+    .portfolio_list li{
+        height: 280px;
+    }
+}
+@media screen and (max-width:860px){
+    .main_visual{
+        font-size: 0.9em;
+    }
+    .main_menu li a{
+        padding: 0 16px;
+    }
+    .portfolio_list li{
+        height: 250px;
+    }
+    .team_photo{
+        width: 150px;
+        height: 150px;
+    }
+    .team_name{
+        font-size: 1.25em;
+        margin-top: 50px;
+    }
+    .footer_messgae_text{
+        width: 340px;
+    }
+    .content4_wrap{
+        overflow: hidden;
+    }
+    .plan_list{
+        width: 860px;
+        margin: 100px 0 100px 0;
+    }
+    .plan_list li{
+        width: 260px;
+    }
+    th{
+        padding: 25px;
+        font-size: 1.7em;
+    }
+    td{
+        padding: 15px 0;
+    }
+    .payment{
+        background-color: #f8f9fb;
+        padding: 20px 0;
+    }
+    .buy_plan{
+        padding: 20px 0;
+    }
+    .pro_btn{
+        background-color: #49cbcd;
+    }
+}
+@media screen and (max-width:768px){
+    .main_visual{
+        font-size: 0.875em;
+    }
+    .main_menu li a{
+        padding: 0 15px;
+    }
+    .feature_list{
+        position: relative;
+        float: left;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 60px;
+    }
+    .portfolio_list{
+        grid-gap: 20px;
+    }
+    .portfolio_list li{
+        height: 220px;
+    }
+    .content3_title{
+        margin: 90px 0 90px 0;
+    }
+    .team_list{
+        position: relative;
+        float: left;
+        width: 100%;
+        margin-bottom: 110px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
+    .team_list li{
+        width: 100%;
+    }
+    .team_photo{
+        width: 140px;
+        height: 140px;
+    }
+    .team_name{
+        font-size: 1.125em;
+        margin-top: 40px;
+    }
+    .message_text{
+        width: 500px;
+    }
+}
+@media screen and (max-width:640px){
+    .main_visual_list li{
+        height: 450px;
+    }
+    .portfolio_list{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+    .portfolio_list li{
+        height: 260px;
+    }
+    .pc_nav{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .header_top{
+        height: 75px;
+    }
+    .logo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .footer_messgae_text{
+        width: 250px;
+    }
+}
+@media screen and (max-width:480px){
+    .header_top{
+        height: 65px;
+    }
+    .main_visual_list li{
+        height: 400px;
+    }
+    .main_visual_text_title{
+        font-size: 2.5em;
+    }
+    .main_visual_text_description{
+        font-size: 1.25em;
+        width: 300px;
+        margin-top: 40px;
+    }
+    .mobile_icon_wrap{
+        left: -48px;
+        width: 50px;
+        height: 50px;
+    }
+    .mobile_menu, .close_icon{
+        width: 35px;
+    }
+    .mobile{
+        top: 8px;
+        transform: translateX(150px);
+    }
+    .mobile_nav{
+        width: 150px;
+    }
+    .mobile_main_menu{
+        font-size: 1em;
+    }
+    .mobile_main_menu li{
+        padding: 10px;
+    }
+    .main_visual_text_btn{
+        margin-top: 45px;
+        border: 2.5px solid white;
+        width: 180px;
+        height: 55px;
+        border-radius: 7px;
+        font-size: 1.5em;
+    }
+    .portfolio_list li{
+        height: 200px;
+    }
+    .message_title{
+        font-size: 2.3em;
+        margin-bottom: 40px;
+    }
+    .message_text{
+        width: 350px;
+        line-height: 27px;
+        font-size: 0.95em;
+    }
+    .person_name{
+        margin-top: 40px;
+        font-size: 1em;
+    }
+    .footer_message_wrap{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .footer_messgae_title{
+        position: relative;
+        float: left;
+        width: 100%;
+        color: white;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    .footer_messgae_text{
+        width: 98%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .sns_list{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    form{
+        float: left;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 98%;
+    }
+}
+@media screen and (max-width:360px){
+    .header_top{
+        height: 65px;
+    }
+    .main_visual_list li{
+        height: 350px;
+    }
+    .main_visual_text_title{
+        font-size: 2em;
+    }
+    .main_visual_text_description{
+        font-size: 1.125em;
+        width: 250px;
+        margin-top: 35px;
+    }
+    .main_visual_text_btn{
+        margin-top: 40px;
+        border: 2.5px solid white;
+        width: 150px;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 1.25em;
+    }
+    .feature_list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature_img_wrap{
+        margin-bottom: 30px;
+    }
+    .team_list{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+    }
+    .team_name{
+        margin-top: 30px;
+    }
+    .team_description{
+        margin-top: 15px;
+    }
+    .message_title{
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    .message_text{
+        width: 270px;
+        line-height: 25px;
+        font-size: 0.9235em;
+    }
+}
